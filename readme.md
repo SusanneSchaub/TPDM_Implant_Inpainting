@@ -11,11 +11,11 @@ Presented is the code for a novel 3D inpainting approach based on two perpendicu
 ## Getting started
 
 ## 1. Train two perpendicular score-based diffusion models
-Train the two perpendicular diffusion models independently of the TPDM sampling procedure using [score-SDE](https://arxiv.org/abs/2011.13456). PLease refer to this repository [repository](https://github.com/yang-song/score_sde).
+Train the two perpendicular diffusion models independently of the TPDM sampling procedure using [score-SDE](https://arxiv.org/abs/2011.13456). Please refer to this repository [repository](https://github.com/yang-song/score_sde).
 
 > NOTE: `TPDM`'s sampling code is only implemented for variance-exploding SDE (VE-SDE).
 
-See the `./configs/default_lsun_configs.py` and `./configs/ve/BMR_ZSR_256.py` for the configurations we used to train `score-SDE` model. 
+See the `./configs/default_lsun_configs.py` and `./configs/ve/inpainting_256.py` for the configurations we used to train `score-SDE` model. 
 
 
 ### 2. Install TPDM dependencies
